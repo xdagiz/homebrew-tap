@@ -3,7 +3,7 @@ cask "xytz" do
   name "xytz"
   desc "a beautiful TUI YouTube Downloader"
   homepage "https://github.com/xdagiz/xytz"
-  version "0.8.4"
+  version "0.8.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "xytz" do
   on_macos do
     on_intel do
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-darwin-amd64.tar.gz"
-      sha256 "19030579fe89ca0131366cf1e41a6faa132e9b664fc19aea1c1a3be88ba318e1"
+      sha256 "9e913b7e61a3d2618c8ca0eb60cf7a004a3af1c1fb58c8673d529d037e4c2c59"
     end
     on_arm do
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-darwin-arm64.tar.gz"
-      sha256 "2462bef0918b9cd321ee7d74f372bc219110d37f27d300effdf9e6bed3c60059"
+      sha256 "57c71ae84d873c1b210dfbe4955ac66576bbebcd674c37b5aa6bf4796e1b9d1d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-linux-amd64.tar.gz"
-      sha256 "41765aa64c31c2ab3356cbe4f67a005068f8024be567ad5325e22304af782409"
+      sha256 "138dc848f9dbbaaa74b62e01e96faf98b2970f4d58910b12e1010a3ec9723b5d"
     end
     on_arm do
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-linux-arm64.tar.gz"
-      sha256 "a3b482caae38231eef63474a5fcf9b478f7f63e5f603e87890dc51db40ea183c"
+      sha256 "6bc505ccd8a2aaac063e10a0b1360ce078b75b7381b4719ab3043b439c212a36"
     end
   end
 
