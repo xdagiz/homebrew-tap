@@ -4,22 +4,22 @@ cask "xytz" do
 
   on_macos do
     on_intel do
-      sha256 "5a9fac12bd10c5901d2f1af6e5e88dc41bb844d04f28646ebb832cbc359c8dcc"
+      sha256 "675652e74f06a3f991c0c4afc742b520a3b1b6d3adcac0cdd07f292e399df3d2"
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-darwin-amd64.tar.gz"
     end
     on_arm do
-      sha256 "43217d15da3b2cd41839a9c3f8a105e6bdd08ecead6a151a3b21af220f1442af"
+      sha256 "315ae245b1ed3264a4fbe1453217e5da178f138c01ceddac34bcd6eaddd08bc6"
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-darwin-arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "8fbde7bb5dae1577d67233f39686b0bd5992567aac0766fbc1f235f17cc9d212"
+      sha256 "2d1a1ced7c2eac8c37d3c1359685e390d8646afd24b03c1b996135f8c113b02a"
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-linux-amd64.tar.gz"
     end
     on_arm do
-      sha256 "5c8ca8231d313550b0c03605bbfe421077fa769f678b0015f3f26a6aaa8cf856"
+      sha256 "058799df46e69f84c3506038280c03a63a690cdc3c8bd4def7162d70db3b37a2"
       url "https://github.com/xdagiz/xytz/releases/download/v#{version}/xytz-v#{version}-linux-arm64.tar.gz"
     end
   end
